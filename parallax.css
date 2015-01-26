@@ -1,6 +1,8 @@
 
 body {
 	margin: 0;
+  font-weight: normal;
+  font-family: "Algerian";
 }
 
 .container {
@@ -14,8 +16,8 @@ section.module:last-child {
 
 section.module.h2 {
 	margin-bottom: 40px;
-	font-family: "Roboto Slab", serif;
 	font-size: 30px;
+  font-weight: normal;
 }
 
 section.module.p {
@@ -28,26 +30,41 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 40px 0;
+  padding: 60px 50px;
+}
+section.module.content h2 {
+  font-weight: normal;
+  text-align: center;
 }
 section.module.parallax {
-  height: 600px;
+  font-family: "Algerian";
+  font-weight: normal;
+  height: 60%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  padding: 5%;
 }
 section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 48px;
-  line-height: 600px;
-  font-weight: 700;
+  color: white;
+  font-weight: normal;
+  position: relative;
+  vertical-align: center;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax h2 {
+  font-weight: normal;
+  vertical-align: center;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("img/Austria.jpg");
+  background-image: url("img/black wood.jpg");
+  color: white;
+  font-weight: normal;
 }
 section.module.parallax-2 {
   background-image: url("img/Boston City Flow.jpg");
