@@ -30,6 +30,8 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
+  background-color: #A8A8A8;
+
   padding: 60px 50px;
 }
 section.module.content h2 {
@@ -63,16 +65,16 @@ section.module.parallax h2 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("img/black wood.jpg");
+  background-image: url("../img/black wood.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("img/oil-rig-background.jpg");
+  background-image: url("../img/oil-rig-background.jpg");
 }
 section.module.parallax-3 {
-  background-image: url("img/safety-background.jpg");
+  background-image: url("../img/safety-background.jpg");
 }
 section.module.parallax-4 {
-  background-image: url("img/internet-background.jpg");
+  background-image: url("../img/internet-background.jpg");
 }
 
 @media all and (min-width: 600px) {
