@@ -55,6 +55,7 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax h2 {
+  color: white;
   font-weight: normal;
   vertical-align: center;
   text-align: center;
@@ -63,8 +64,6 @@ section.module.parallax h2 {
 }
 section.module.parallax-1 {
   background-image: url("img/black wood.jpg");
-  color: white;
-  font-weight: normal;
 }
 section.module.parallax-2 {
   background-image: url("img/Boston City Flow.jpg");
