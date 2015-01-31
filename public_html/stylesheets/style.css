@@ -10,6 +10,22 @@ body {
 	margin: 0 auto;
 }
 
+/* Social Media */
+.facebook {
+  background-image: url("http://divasmobilesolutions.com/wp-content/uploads/2012/02/fbicon-e1329880206895.png")
+}
+.linkedin {
+  background-image: url("http://divasmobilesolutions.com/wp-content/uploads/2012/02/linkedinicon-e1329880359341.png") 
+}
+.email {
+  background-image: url("http://yellowicons.com/wp-content/uploads/Email-Icon-1.png") 
+}
+.small-icon {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
 section.module:last-child {
 	margin-bottom: 0;
 }
