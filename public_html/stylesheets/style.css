@@ -2,8 +2,12 @@
 body {
 	margin: 0;
   font-family: Algerian;
+  /*font-family: Impact;*/
 	font-weight: normal;
-	background-color: black;
+
+  background-image: url("../img/black wood.jpg");
+
+	/*background-color: black;*/
 }
 
 .container {
@@ -17,7 +21,7 @@ body {
   height: 20%;
 	width: 100%;
   clear:both;
-	background-color: black;
+	/*background-color: black;*/
   margin-bottom: 40px;
 }
 
@@ -69,15 +73,26 @@ body {
 }
 
 #navbar a:hover {
-  color: red;
+  color: #FC9300;
 }
 
 /* CONTENT */
 #content {
-  background-color: orange;
-  height:70%;
+  background-color: #FC9300;
+  height:60%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
+h1 {
+  padding: 25px;
+  text-align: center;
+}
+
+/* FOOTER */
+#footer {
+  height: 10%;
+}
 
 
 
