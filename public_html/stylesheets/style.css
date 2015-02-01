@@ -6,7 +6,7 @@ body {
 	font-weight: normal;
 
   background-image: url("../img/black wood.jpg");
-
+  color: white;
 	/*background-color: black;*/
 }
 
@@ -62,7 +62,8 @@ body {
   text-decoration: none;
   font-size: 1.5em;
 }
-#navbar ul {
+
+.right ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -78,7 +79,6 @@ body {
 
 /* CONTENT */
 #content {
-  background-color: #FC9300;
   height:60%;
   margin-left: 15%;
   margin-right: 15%;
