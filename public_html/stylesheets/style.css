@@ -1,8 +1,9 @@
 
 body {
 	margin: 0;
-  font-weight: normal;
-  font-family: "Algerian";
+	font-weight: normal;
+	font-family: "Algerian";
+	background-color: black;
 }
 
 .container {
@@ -10,19 +11,16 @@ body {
 	margin: 0 auto;
 }
 
-/* Social Media */
-.facebook {
-  background-image: url("http://divasmobilesolutions.com/wp-content/uploads/2012/02/fbicon-e1329880206895.png")
+.header {
+	height: 150px;
+	background-color: black;
 }
-.linkedin {
-  background-image: url("http://divasmobilesolutions.com/wp-content/uploads/2012/02/linkedinicon-e1329880359341.png") 
-}
-.email {
-  background-image: url("http://yellowicons.com/wp-content/uploads/Email-Icon-1.png") 
+.header.img {
+				
 }
 .small-icon {
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   margin: 5px;
 }
 
