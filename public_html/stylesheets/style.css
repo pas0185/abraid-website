@@ -1,15 +1,18 @@
 
 body {
 	margin: 0;
-  font-family: Algerian;
-  /*font-family: Impact;*/
-	font-weight: normal;
+  font-family: Nobile;
 
-  background-image: url("../img/black wood.jpg");
   color: white;
-	/*background-color: black;*/
 }
-
+@font-face {
+  font-family: English;
+  src: url("../res/fonts/Old English Five.ttf");
+}
+@font-face {
+  font-family: Nobile;
+  src: url("../res/fonts/Nobile/Nobile-Regular.ttf");
+}
 .container {
 	max-width: 960px;
 	margin: 0 auto;
@@ -20,10 +23,11 @@ body {
 /****************************/
 
 #header {
+  background-image: url("../img/black wood.jpg");
   height: 250px;
 	/*width: 100%;*/
   clear:both;
-  margin: 40px;
+  margin:0;
 }
 
 #title div {
@@ -55,25 +59,25 @@ body {
 /****************************/
 
 #navbar {
-  width: 80%;
+  width: 100%;
   margin: 0px auto;
   position: relative;
-  height: 50px;
-  /*clear: both;*/
-  /*display: inline;*/
+  background-color: black;
+  height: 75px;
   text-align: center;
-  /*vertical-align: center;*/
 }
 
 #navbar .navbutton {
-  /*float:left;*/
-  width: 150px;
-  margin: 10px;
+  font-weight: bold;
+  height: 75px;
+  line-height: 75px;
+  width: 200px;
   text-align: center;
+  vertical-align: middle;
   display: inline-block;
   color: white;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 #navbar div:hover {
@@ -85,15 +89,12 @@ body {
 /********** CONTENT **********/
 /****************************/
 #content {
-  height:60%;
+  /*height:60%;*/
   margin-left: 15%;
   margin-right: 15%;
+  font-size: 16px;
 }
 
-h1 {
-  padding: 25px;
-  text-align: center;
-}
 
 /****************************/
 /********** FOOTER **********/
