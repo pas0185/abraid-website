@@ -55,30 +55,28 @@ body {
 /****************************/
 
 #navbar {
-	width: 100%;
+	/*width: ;*/
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
   height: 10%;
   clear: both;
   display: inline;
   text-align: center;
   vertical-align: center;
 }
-#navbar a {
+#navbar div {
+
+  width: 150px;
+  float:left;
+  display: inline;
   color: white;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 24px;
 }
 
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
- li {
-  display: inline;
-  margin: 20px;
-}
-
-#navbar a:hover {
+#navbar div:hover {
+  /* cool orange */
   color: #FC9300;
 }
 

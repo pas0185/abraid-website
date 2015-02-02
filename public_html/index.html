@@ -2,12 +2,13 @@
 	<head>
 		<title>ABRAID</title>
 		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-		<script src="js/getQueryVariable.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.1.min.js"></script>
         <script type="text/javascript">
            $(document).ready(function(){
-               	$('#content').load('.html'));
-           });
+           		$('#about').click(function() {
+           			$("#content").load("about.html");
+           		});
+           	});
         </script>   
 
 	</head>
@@ -35,12 +36,10 @@
 
 		<!-- navbar -->
 		<div id="navbar">
-			<ul>
-				<li><a href="?page=about">About</a></li>
-				<li><a href="?page=services">Services</a></li>
-				<li><a href="?page=experience">Experience</a></li>
-				<li><a href="?page=contact">Contact</a></li>
-			</ul>
+			<input id="about" class="navbutton" type="button" value="About"/>
+<!-- 			<div id="services">Services</div>
+			<div id="experience">Experience</div>
+			<div id="contact">Contact</div> -->
 		</div>
 
 		<!-- content -->
