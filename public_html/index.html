@@ -5,6 +5,8 @@
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.1.min.js"></script>
         <script type="text/javascript">
            $(document).ready(function(){
+				$("#content").load("about.html");
+
            		$('#about').click(function() {
            			$("#content").load("about.html");
            		});
@@ -22,25 +24,12 @@
 
 	</head>
 	<body>
+
 		<!-- header -->
 		<div id="header">
-			<div id="title">
-				<a href="home.html">
-					<img src="img/name-and-subtitle.png">
-				</a>
-			</div>
-						
-			<div id="social-icons">
-				<a href="https://www.facebook.com/abraidcd">
-					<img src="img/facebook-icon.png">
-				</a>
-				<a href="https://www.linkedin.com/company/abraid">
-					<img src="img/linkedin-icon.png">
-				</a>
-				<a href="mailto:questions@abraidcd.com">
-					<img src="img/mail-icon.png">
-				</a>
-			</div>
+			<a href="home.html">
+				<img src="img/name-and-subtitle.png">
+			</a>
 		</div>
 
 		<!-- navbar -->
@@ -58,7 +47,15 @@
 
 		<!-- footer -->
 		<div id="footer">
-
+			<a href="https://www.facebook.com/abraidcd">
+				<img src="img/facebook-icon.png">
+			</a>
+			<a href="https://www.linkedin.com/company/abraid">
+				<img src="img/linkedin-icon.png">
+			</a>
+			<a href="mailto:questions@abraidcd.com">
+				<img src="img/mail-icon.png">
+			</a>
 		</div>
 
 	</body>

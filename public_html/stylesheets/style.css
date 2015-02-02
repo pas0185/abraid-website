@@ -2,6 +2,7 @@
 body {
 	margin: 0;
   font-family: Nobile;
+  background-image: url("../img/black wood.jpg");
 
   color: white;
 }
@@ -23,35 +24,24 @@ body {
 /****************************/
 
 #header {
-  background-image: url("../img/black wood.jpg");
   height: 250px;
 	/*width: 100%;*/
-  clear:both;
-  margin:0;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
 }
 
-#title div {
-  height: 250px;
-  width: 650px;
-  float:left;
-  /*overflow: hidden;*/
-}
-
-#title img {
-  margin: 5px;
+#header img {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  top: 25px;
   height: 200px;
-}
-
-#social-icons div{
-  float:right;
-  /*vertical-align: bottom;*/
-  width: 100px;
-  margin: 10px;
-}
-
-#social-icons img {
-  height: 30px;
-  width: 30px;
 }
 
 /****************************/
@@ -59,9 +49,13 @@ body {
 /****************************/
 
 #navbar {
-  width: 100%;
-  margin: 0px auto;
-  position: relative;
+  top:250px;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  position: absolute;
+  /*margin: 0px auto;*/
+  /*position: relative;*/
   background-color: black;
   height: 75px;
   text-align: center;
@@ -89,24 +83,46 @@ body {
 /********** CONTENT **********/
 /****************************/
 #content {
-  /*height:60%;*/
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 16px;
+  overflow: hidden;
+  position: absolute;
+  left:0;
+  right:0;
+  top:325px;
+  bottom:75px;
+  font-size: 24px;
 }
-
+#content a {
+  text-decoration: none;
+  color: white;
+}
+#content p {
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /****************************/
 /********** FOOTER **********/
 /****************************/
 #footer {
-  height: 10%;
+  height: 75px;
+  left:0;
+  right:0;
+  bottom: 0;
+  background-color: black;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
 }
-
-
-
-
-
+#footer a {
+  text-decoration: none;
+}
+#footer img {
+  position: relative;
+  margin: 17px 20px;
+  height: 40px;
+  width: 40px;
+}
 
 /* PARALLAX */
 section.module:last-child {
